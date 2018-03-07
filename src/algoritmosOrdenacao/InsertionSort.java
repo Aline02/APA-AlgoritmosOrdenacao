@@ -1,8 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
+
 package algoritmosOrdenacao;
 
 import java.util.ArrayList;
@@ -29,15 +26,25 @@ public class InsertionSort {
     
     public void insertionSort(){
         
+        //
+        
         int aux, j;
         
+        //'aux' guarda o valor do próximo elemento que será inserido na lista
+        //'i' é o "ponteiro" que varre a lista desordenada
+        //'j' é o "ponteiro" que varre a lista ordenada
+        
         for(int i = 1; i < lista.size(); i++){
+            
             aux = lista.get(i);
+            
             for(j = i-1; j>=0; j--){
+            
                 if(aux>lista.get(j))
                     break;
                 lista.set(j+1, lista.get(j));
             }
+            
             lista.set(j+1, aux);
         }
     }

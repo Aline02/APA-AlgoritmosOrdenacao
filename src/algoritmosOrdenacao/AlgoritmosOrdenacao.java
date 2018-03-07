@@ -12,13 +12,15 @@ public class AlgoritmosOrdenacao {
     public static void main(String[] args) {
         SelectionSort a = new SelectionSort();
         
-        /*System.out.println(a);
-        a.selectionSort();
+        System.out.println("Sequencia de números não ordenada.");
         System.out.println(a);
-        */
+        a.selectionSort();
+        System.out.println("Sequencia ordenada de números ordenada pelo algoritmo Selection Sort");
+        System.out.println(a);
+        
         InsertionSort b = new InsertionSort();
-        System.out.println(b);
         b.insertionSort();
+        System.out.println("Sequencia ordenada de números ordenada pelo algoritmo Insertion Sort");
         System.out.println(b);
     }
     
