@@ -2,7 +2,7 @@
 
 
 
-Algoritmos de Ordenação: Insertion Sort, Selection Sort, Quick Sort e Merge Sort
+Algoritmos de Ordenação: Insertion Sort, Selection Sort, Quick Sort, Merge Sort e Heap Sort
 
 
 

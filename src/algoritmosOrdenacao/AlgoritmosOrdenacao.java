@@ -26,10 +26,15 @@ public class AlgoritmosOrdenacao {
         System.out.println(c);
         
         QuickSort d = new QuickSort();
-        d.quickSort();
         System.out.println("Ordenada por Quick Sort");
         d.quickSort();
         System.out.println(d);
+        
+        MaxHeap e = new MaxHeap();
+        e.heapSort();
+        System.out.println("Ordenada por Heap Sort");
+        System.out.println(e);
+        
     }
     
 }
